@@ -2,11 +2,58 @@
 <html>
 <head>
 <title>Home</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    .table-container {
+        display: table;
+        width: 50%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .table-header {
+        background-color: #4a90e2;
+        color: white;
+        font-weight: bold;
+    }
+    .table-row {
+        display: table-row;
+    }
+    .table-cell {
+        display: table-cell;
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+    .blue-cell {
+        background-color: #cce4ff;
+    }
+    .light-blue-cell {
+        background-color: #e6eefc;
+    }
+</style>
 <body>
-<div>
-<p>ธิปไตย ศิริรักษ์ 6609650434</p>
-<p>ณัฏฐ์ ศรีสุวรรณกุล 6609650327</p>
-<p>ปิยธิดา ฤกษ์ดี 6609650491</p>
-</div>
+    <div class="table-container">
+        <!-- ส่วนหัว -->
+        <div class="table-row table-header">
+            <div class="table-cell">ชื่อนามสกุล</div>
+            <div class="table-cell">รหัสนักศึกษา</div>
+        </div>
+        <!-- ข้อมูล -->
+        <div class="table-row">
+            <div class="table-cell  light-blue-cell">ธิปไตย ศิริรักษ์</div>
+            <div class="table-cell light-blue-cell">6609650434</div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell  light-blue-cell">ณัฏฐ์ ศรีสุวรรณกุล</div>
+            <div class="table-cell light-blue-cell">6609650327</div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell  light-blue-cell">ปิยธิดา ฤกษ์ดี</div>
+            <div class="table-cell light-blue-cell">6609650491</div>
+        </div>
+    </div>
 </body>
 </html>
